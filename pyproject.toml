@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "libpy"
+version = "0.1.0"
+description = "The libpy package for REMLA23-team14. Contains some reusable code for the project."
+authors = ["REMLA23-team14"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.1"
+nltk = "^3.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
